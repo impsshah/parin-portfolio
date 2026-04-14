@@ -285,6 +285,9 @@ h1 {
 .hero-panel {
   display: grid;
   gap: 16px;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
 }
 
 .hero-photo-card {
