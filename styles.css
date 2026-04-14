@@ -109,26 +109,28 @@ main {
   color: var(--muted);
 }
 
-.nav-divider {
+.bg-white {
+  background-color: #55606d;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-px {
   width: 1px;
-  height: 28px;
-  background: rgba(29, 35, 42, 0.2);
-  margin-left: 4px;
-  margin-right: 4px;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .nav-icon-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
   color: #4a5562;
-}
-
-.nav-icon-link svg {
-  width: 24px;
-  height: 24px;
 }
 
 .site-nav a:hover,
