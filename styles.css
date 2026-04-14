@@ -103,31 +103,37 @@ main {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 18px;
   font-size: 0.95rem;
   color: var(--muted);
 }
 
-.nav-cta {
+.nav-divider {
+  width: 1px;
+  height: 28px;
+  background: rgba(29, 35, 42, 0.2);
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.nav-icon-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 38px;
-  padding: 0 14px;
-  border-radius: 999px;
-  border: 1px solid rgba(47, 74, 85, 0.12);
-  background: rgba(169, 92, 60, 0.1);
-  color: var(--accent-deep);
-  font-weight: 600;
+  width: 30px;
+  height: 30px;
+  color: #4a5562;
 }
 
-.nav-cta-secondary {
-  background: rgba(47, 74, 85, 0.08);
-  color: var(--olive);
+.nav-icon-link svg {
+  width: 24px;
+  height: 24px;
 }
 
 .site-nav a:hover,
-.text-link:hover {
+.text-link:hover,
+.nav-icon-link:hover {
   color: var(--accent-deep);
 }
 
